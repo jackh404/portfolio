@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Navbar from "./components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,26 +17,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="forest">
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col justify-between">
-          <div>
-            <nav>
-              <ul>
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
-                <li>
-                  <Link href="/about">About</Link>
-                </li>
-                <li>
-                  <Link href="/contact">Contact</Link>
-                </li>
-              </ul>
-            </nav>
+          <div className="bg-base-100 text-base-content flex-grow">
+            <Navbar />
             <main>{children}</main>
           </div>
-          <footer>
+          <footer className="footer footer-center p-4 bg-base-300 text-base-content">
             <p>Copyright &copy; Studio Fig Tree 2024</p>
           </footer>
         </div>
