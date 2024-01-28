@@ -6,5 +6,9 @@ import Head from "next/head";
 import { headers } from "next/headers";
 
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      <h1>Home</h1>
+    </div>
+  );
 }
