@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +24,9 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col justify-between">
           <div className="bg-base-100 text-base-content flex-grow">
             <Navbar />
-            <main className="p-6">{children}</main>
+            <main className="p-10 max-w-screen-xl mx-auto">{children}</main>
           </div>
-          <footer className="footer footer-center p-4 bg-base-300 text-base-content">
-            <p>Copyright &copy; Studio Fig Tree 2024</p>
-          </footer>
+          <Footer />
         </div>
       </body>
     </html>

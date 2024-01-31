@@ -17,20 +17,6 @@ export default function Projects() {
         variety of projects, from small personal projects to larger, more
         complex applications.
       </p>
-
-      <nav>
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/about">About Me</Link>
-          </li>
-          <li>
-            <Link href="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
     </div>
   );
 }

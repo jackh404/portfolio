@@ -22,7 +22,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="navbar bg-base-200">
+    <nav className="navbar bg-base-300">
       <div className="navbar-start">
         <label className="btn btn-circle swap swap-rotate">
           {/* this hidden checkbox controls the state */}
@@ -58,11 +58,17 @@ const Navbar = () => {
         </label>
         <AnimatePresence>
           {menuOpen ? (
-            <ul className="p-2 shadow z-10 bg-base-100 rounded-box w-52 flex flex-row">
+            <motion.ul
+              initial={{ opacity: 0, width: 0 }}
+              animate={{ opacity: 1, width: "auto" }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.4 }}
+              className="p-2 shadow z-10 bg-base-100 rounded-box flex flex-row"
+            >
               {links.map((link, i) => (
                 <li key={link.href}>
                   <motion.div
-                    initial={{ opacity: 0, x: -40 * (i + 1) }}
+                    initial={{ opacity: 0, x: -30 * (i + 1) }}
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -40 * (i + 1) }}
                     transition={{ duration: 0.4, delay: 0.1 * (i + 1) }}
@@ -80,7 +86,7 @@ const Navbar = () => {
                   </motion.div>
                 </li>
               ))}
-            </ul>
+            </motion.ul>
           ) : null}
         </AnimatePresence>
       </div>
