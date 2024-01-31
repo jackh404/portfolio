@@ -13,9 +13,9 @@ export default function Projects() {
     <div>
       <h1>My Projects</h1>
       <p>
-        Here you can find a selection of my projects. I've worked on a variety
-        of projects, from small personal projects to larger, more complex
-        applications.
+        Here you can find a selection of my projects. I&apos;ve worked on a
+        variety of projects, from small personal projects to larger, more
+        complex applications.
       </p>
 
       <nav>
