@@ -1,19 +1,22 @@
 // pages/contact.js
 
-import React from 'react';
-import Link from 'next/link';
-import Head from 'next/head';
+import React from "react";
+import Link from "next/link";
+
+export const metadata = {
+  title: "Contact | Tech Portfolio",
+  description:
+    "Get in touch with me. I'm always open to discussing new projects, questions, or potential collaboration opportunities.",
+};
 
 export default function Contact() {
   return (
     <div>
-      <Head>
-        <title>Contact | Personal Tech Portfolio</title>
-        <meta name="description" content="Get in touch with me through this page." />
-      </Head>
-
       <h1>Contact Me</h1>
-      <p>If you have any questions or would like to discuss a project, feel free to reach out to me.</p>
+      <p>
+        If you have any questions or would like to discuss a project, feel free
+        to reach out to me.
+      </p>
 
       <form>
         <label>
@@ -34,19 +37,13 @@ export default function Contact() {
       <nav>
         <ul>
           <li>
-            <Link href="/">
-              Home
-            </Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/about">
-              About Me
-            </Link>
+            <Link href="/about">About Me</Link>
           </li>
           <li>
-            <Link href="/projects">
-              Projects
-            </Link>
+            <Link href="/projects">Projects</Link>
           </li>
         </ul>
       </nav>
