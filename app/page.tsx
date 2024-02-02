@@ -81,15 +81,15 @@ export default function Home() {
       <h2 className="text-3xl md:text-4xl lg:text-6xl my-6">
         ...With experience in
       </h2>
-      <div className="mt-10 flex gap-3 text-center text-xl flex-wrap">
+      <div className="mt-10 flex gap-5 text-center text-xl flex-wrap">
         {experiencedList.map(item => (
           <div key={item.label}>
             <Image
               src={item.src}
-              width={200}
-              height={200}
+              width={150}
+              height={150}
               alt={item.alt}
-              className={`${item.addClass} h-40 w-auto`}
+              className={`${item.addClass} h-20 w-auto`}
             />
             <p className="mt-2">{item.label}</p>
           </div>
