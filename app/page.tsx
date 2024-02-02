@@ -83,7 +83,7 @@ export default function Home() {
       </h2>
       <div className="mt-10 flex gap-3 text-center text-xl flex-wrap">
         {experiencedList.map(item => (
-          <div>
+          <div key={item.label}>
             <Image
               src={item.src}
               width={200}
