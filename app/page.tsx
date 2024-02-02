@@ -3,16 +3,16 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-col md:flex-row justify-evenly items-center">
-        <h1 className="text-5xl md:text-6xl lg:text-8xl">Jack&nbsp;</h1>
-        <h1 className="text-5xl md:text-6xl lg:text-8xl mb-5">
+      <div className="flex flex-col md:flex-row justify-between items-center">
+        <h1 className="text-5xl md:text-6xl lg:text-8xl">
+          Jack
           <br />
           Henza
         </h1>
 
         <Image
           src="/headshotIceland.jpg"
-          alt="profile"
+          alt="picture of me"
           width={600}
           height={600}
           className="w-64 md:w-96 lg:w-1/3 rounded lg:mx-10"
@@ -24,7 +24,7 @@ export default function Home() {
           <br />
           Software Engineer
         </h2>
-        <p>
+        <p className="">
           I am a creative and innovative Full-Stack Developer with more than 10
           years working in various technical fields. I am experienced in Java,
           Python, Flask SQLAlchemy, JS, and React, as well as education and

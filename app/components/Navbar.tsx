@@ -63,7 +63,7 @@ const Navbar = () => {
               animate={{ opacity: 1, width: "auto" }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.4 }}
-              className="p-2 shadow z-10 bg-base-100 rounded-box flex flex-row"
+              className="p-2 shadow z-10 bg-base-100 rounded-box flex flex-row gap-2"
             >
               {links.map((link, i) => (
                 <li key={link.href}>
@@ -71,7 +71,7 @@ const Navbar = () => {
                     initial={{ opacity: 0, x: -30 * (i + 1) }}
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -40 * (i + 1) }}
-                    transition={{ duration: 0.4, delay: 0.1 * (i + 1) }}
+                    transition={{ duration: 0.2, delay: 0.07 * (i + 1) }}
                   >
                     <Link
                       href={link.href}
