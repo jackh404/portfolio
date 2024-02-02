@@ -1,6 +1,4 @@
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaDev } from "react-icons/fa";
+import { FaLinkedin, FaDev, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer footer-center p-4 bg-base-300 text-base-content grid grid-flow-col">
