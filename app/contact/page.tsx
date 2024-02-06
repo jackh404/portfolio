@@ -40,7 +40,7 @@ export default function Contact() {
       <h1 className="text-3xl p-6">Contact Me</h1>
       <p>
         If you would like to discuss a collaboration, hire me, or just see what
-        I'm up to, please reach out by one of the methods below.
+        I&apos;m up to, please reach out by one of the methods below.
       </p>
 
       <ul className="flex flex-col mt-8 gap-6 items-center">
