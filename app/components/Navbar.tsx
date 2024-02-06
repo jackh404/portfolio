@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
@@ -7,18 +7,31 @@ import { AnimatePresence, motion } from "framer-motion";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
+  useEffect(() => {
+    if (window.innerWidth > 768) {
+      setMenuOpen(true);
+    }
+  }, []);
   const links = [
     {
       href: "/",
       label: "Homepage",
     },
-    {
-      href: "/projects",
-      label: "Projects",
-    },
+    // {
+    //   href: "/projects",
+    //   label: "Projects",
+    // },
     {
       href: "/about",
       label: "About",
+    },
+    {
+      href: "/contact",
+      label: "Contact",
+    },
+    {
+      href: "/resume",
+      label: "Resume",
     },
   ];
   return (

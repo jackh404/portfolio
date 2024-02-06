@@ -1,4 +1,6 @@
 // pages/contact.js
+import { IoIosMail } from "react-icons/io";
+import { FaLinkedin, FaGithub, FaDev } from "react-icons/fa";
 
 import React from "react";
 import Link from "next/link";
@@ -10,43 +12,51 @@ export const metadata = {
 };
 
 export default function Contact() {
+  const iconClass = "w-10 h-10 mr-4 ";
+  const links = [
+    {
+      href: "mailto:jackhenza@gmail.com",
+      label: "Email me",
+      icon: <IoIosMail className={iconClass} />,
+    },
+    {
+      href: "https://www.linkedin.com/in/jack-henza/",
+      label: "LinkedIn",
+      icon: <FaLinkedin className={iconClass} />,
+    },
+    {
+      href: "https://github.com/jackh404",
+      label: "GitHub",
+      icon: <FaGithub className={iconClass} />,
+    },
+    {
+      href: "https://dev.to/jackh404",
+      label: "Dev.to",
+      icon: <FaDev className={iconClass} />,
+    },
+  ];
   return (
-    <div>
-      <h1>Contact Me</h1>
+    <div className="text-center max-w-xl mx-auto">
+      <h1 className="text-3xl p-6">Contact Me</h1>
       <p>
-        If you have any questions or would like to discuss a project, feel free
-        to reach out to me.
+        If you would like to discuss a collaboration, hire me, or just see what
+        I'm up to, please reach out by one of the methods below.
       </p>
 
-      <form>
-        <label>
-          Name:
-          <input type="text" name="name" />
-        </label>
-        <label>
-          Email:
-          <input type="email" name="email" />
-        </label>
-        <label>
-          Message:
-          <textarea name="message"></textarea>
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
-
-      <nav>
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
+      <ul className="flex flex-col mt-8 gap-6 items-center">
+        {links.map(link => (
+          <li key={link.href} className="">
+            <a
+              href={link.href}
+              target="_blank"
+              className="flex items-center hover:scale-110 transition-transform"
+            >
+              {link.icon}
+              {link.label}
+            </a>
           </li>
-          <li>
-            <Link href="/about">About Me</Link>
-          </li>
-          <li>
-            <Link href="/projects">Projects</Link>
-          </li>
-        </ul>
-      </nav>
+        ))}
+      </ul>
     </div>
   );
 }

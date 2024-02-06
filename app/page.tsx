@@ -45,6 +45,21 @@ export default function Home() {
       alt: "tailwindcss logo",
       addClass: "bg-gray-100 rounded-full",
     },
+    {
+      label: "PostgreSQL",
+      src: "/Postgresql_elephant.png",
+      alt: "postgresql logo",
+    },
+    {
+      label: "HTML",
+      src: "/HTML5_logo_and_wordmark.png",
+      alt: "html logo",
+    },
+    {
+      label: "CSS",
+      src: "/CSS3_logo.png",
+      alt: "css logo",
+    },
   ];
   return (
     <div>
@@ -64,7 +79,7 @@ export default function Home() {
         />
       </div>
       <div>
-        <h2 className="text-3xl md:text-4xl lg:text-6xl my-6">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl my-6">
           Full Stack
           <br />
           Software Engineer...
@@ -78,10 +93,10 @@ export default function Home() {
           at the intersection of environmental action and computer science.
         </p>
       </div>
-      <h2 className="text-3xl md:text-4xl lg:text-6xl my-6">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl my-6 md:mt-10">
         ...With experience in
       </h2>
-      <div className="mt-10 flex gap-5 text-center text-xl flex-wrap">
+      <div className="mt-10 flex gap-7 text-center text-xl flex-wrap">
         {experiencedList.map(item => (
           <div key={item.label}>
             <Image
@@ -89,7 +104,7 @@ export default function Home() {
               width={150}
               height={150}
               alt={item.alt}
-              className={`${item.addClass} h-20 w-auto`}
+              className={`${item.addClass} max-h-12 w-auto mx-auto`}
             />
             <p className="mt-2">{item.label}</p>
           </div>
