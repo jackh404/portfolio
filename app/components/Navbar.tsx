@@ -17,10 +17,10 @@ const Navbar = () => {
       href: "/",
       label: "Homepage",
     },
-    // {
-    //   href: "/projects",
-    //   label: "Projects",
-    // },
+    {
+      href: "/projects",
+      label: "Projects",
+    },
     {
       href: "/about",
       label: "About",

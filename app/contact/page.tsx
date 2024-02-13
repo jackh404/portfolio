@@ -3,7 +3,6 @@ import { IoIosMail } from "react-icons/io";
 import { FaLinkedin, FaGithub, FaDev } from "react-icons/fa";
 
 import React from "react";
-import Link from "next/link";
 
 export const metadata = {
   title: "Contact | Tech Portfolio",
