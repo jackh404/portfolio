@@ -4,8 +4,8 @@ This is a portfolio website for my personal projects and projects I've worked on
 
 ## Featured Projects
 
-- Eatsy (version 1) [Github](https://github.com/jackh404/Eatsy) [Deployed Website](https://eatsy-8ewa.onrender.com/)
-- EcoInsight [Github](https://github.com/jackh404/EcoInsight) [Deployed Website](https://ecoinsight.vercel.app/)
+- Eatsy (version 1) [Github](https://github.com/jackh404/Eatsy) | [Deployed Website](https://eatsy-8ewa.onrender.com/)
+- EcoInsight [Github](https://github.com/jackh404/EcoInsight) | [Deployed Website](https://ecoinsight.vercel.app/)
 
 ## To run this project locally (for some reason)
 
