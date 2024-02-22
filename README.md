@@ -1,11 +1,12 @@
 # My Personal Portfolio Website
 
-This is a portfolio website for my personal projects and projects I've worked on. It's built with Next.js and TypeScript.
+This is a portfolio website for my personal projects and projects I've worked on. It's built with Next.js and TypeScript. It is deployed with Vercel at [jackhenza.com](https://jackhenza.com).
 
 ## Featured Projects
 
-- Eatsy (version 1) [Github](https://github.com/jackh404/Eatsy) | [Deployed Website](https://eatsy-8ewa.onrender.com/)
 - EcoInsight [Github](https://github.com/jackh404/EcoInsight) | [Deployed Website](https://ecoinsight.vercel.app/)
+- The Galactic Atlas [Github](https://github.com/jackh404/galactic_atlas)
+- Eatsy (version 1) [Github](https://github.com/jackh404/Eatsy) | [Deployed Website](https://eatsy-8ewa.onrender.com/)
 
 ## To run this project locally (for some reason)
 
