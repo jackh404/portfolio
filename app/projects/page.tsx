@@ -20,6 +20,16 @@ export default function Projects() {
       demo: "https://youtu.be/2Qq7R_hVwkk",
     },
     {
+      title: "The Galactic Atlas",
+      description:
+        "The Galactic Atlas is a python CLI for interacting with stars, planets, species, and civilizations, both real and fictional.",
+      image: "/Screenshot 2024-02-22 144317.png",
+      github: "https://github.com/jackh404/galactic_atlas",
+      link: "https://github.com/jackh404/galactic_atlas",
+      skills: ["Python", "SQL", "Object Relational Mapping"],
+      demo: "https://youtu.be/T73ofmkVX1s",
+    },
+    {
       title: "Portfolio",
       description:
         "This portfolio website is a simple Next.JS app aimed at aquanting visitors with my personal story and my work in software development. It is coded in TypeScript with Tailwind CSS and DaisyUI for styling.",
