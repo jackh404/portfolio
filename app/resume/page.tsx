@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div>
       <iframe
-        src="https://drive.google.com/file/d/11_ZPhPX4KzfkScWwd4Tpg3ppO-MPfPz6/preview"
+        src="https://drive.google.com/file/d/1-OQnKR9tjj0SfbrL1WhuKMqbo_R_SE3I/preview"
         allow="autoplay"
         className="w-full h-screen"
       ></iframe>
