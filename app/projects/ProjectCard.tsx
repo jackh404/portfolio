@@ -1,15 +1,18 @@
 import { Project } from "../types";
 import { FaGithub, FaYoutube } from "react-icons/fa";
+import Image from "next/image";
 
 const ProjectCard = (project: Project) => {
   return (
     <div className="card max-w-md bg-neutral shadow-md text-neutral-content shadow-neutral-700">
       <figure>
         <a href={project.link} target="_blank">
-          <img
+          <Image
             src={project.image}
             alt={`${project.title} image`}
             className="hover:brightness-125"
+            width={800}
+            height={800}
           />
         </a>
       </figure>
