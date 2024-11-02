@@ -1,4 +1,5 @@
 // pages/index.js
+import { label } from "framer-motion/client";
 import Image from "next/image";
 export default function Home() {
   const experiencedList = [
@@ -43,7 +44,7 @@ export default function Home() {
       label: "TailwindCSS",
       src: "/Tailwind-CSS.svg",
       alt: "tailwindcss logo",
-      addClass: "bg-gray-100 rounded-full",
+      addClass: "bg-gray-100 rounded-full p-1",
     },
     {
       label: "PostgreSQL",
@@ -59,6 +60,17 @@ export default function Home() {
       label: "CSS",
       src: "/CSS3_logo.png",
       alt: "css logo",
+    },
+    {
+      label: "Ruby",
+      src: "/Ruby_logo.png",
+      alt: "ruby logo",
+    },
+    {
+      label: "Ruby on Rails",
+      src: "/ror.png",
+      alt: "rails logo",
+      addClass: "bg-gray-100 rounded-full",
     },
   ];
   return (
@@ -96,8 +108,8 @@ export default function Home() {
       <h2 className="text-2xl md:text-3xl lg:text-4xl my-6 md:mt-10">
         ...With experience in
       </h2>
-      <div className="mt-10 flex gap-7 text-center text-xl flex-wrap">
-        {experiencedList.map(item => (
+      <div className="mt-10 flex gap-7 text-center text-xl flex-wrap justify-center">
+        {experiencedList.map((item) => (
           <div key={item.label}>
             <Image
               src={item.src}
