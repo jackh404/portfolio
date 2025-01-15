@@ -79,7 +79,7 @@ const Navbar = () => {
               className="p-2 shadow z-10 bg-base-100 rounded-box flex flex-row gap-2"
             >
               {links.map((link, i) => (
-                <li key={link.href}>
+                <motion.li key={link.href}>
                   <motion.div
                     initial={{ opacity: 0, x: -30 * (i + 1) }}
                     animate={{ opacity: 1, x: 0 }}
@@ -97,7 +97,7 @@ const Navbar = () => {
                       {link.label}
                     </Link>
                   </motion.div>
-                </li>
+                </motion.li>
               ))}
             </motion.ul>
           ) : null}
