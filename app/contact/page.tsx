@@ -1,6 +1,7 @@
 // pages/contact.js
 import { IoIosMail } from "react-icons/io";
 import { FaLinkedin, FaGithub, FaDev } from "react-icons/fa";
+import Link from "next/link";
 
 import React from "react";
 
@@ -28,11 +29,6 @@ export default function Contact() {
       label: "GitHub",
       icon: <FaGithub className={iconClass} />,
     },
-    {
-      href: "https://dev.to/jackh404",
-      label: "Dev.to",
-      icon: <FaDev className={iconClass} />,
-    },
   ];
   return (
     <div className="text-center max-w-xl mx-auto">
@@ -45,14 +41,14 @@ export default function Contact() {
       <ul className="flex flex-col mt-8 gap-6 items-center">
         {links.map(link => (
           <li key={link.href} className="">
-            <a
+            <Link
               href={link.href}
               target="_blank"
               className="flex items-center hover:scale-110 transition-transform"
             >
               {link.icon}
               {link.label}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

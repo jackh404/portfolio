@@ -1,12 +1,13 @@
 import { Project } from "../types";
 import { FaGithub, FaYoutube } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProjectCard = (project: Project) => {
   return (
     <div className="card max-w-md bg-neutral shadow-md text-neutral-content shadow-neutral-700">
       <figure>
-        <a href={project.link} target="_blank">
+        <Link href={project.link} target="_blank">
           <Image
             src={project.image}
             alt={`${project.title} image`}
@@ -14,12 +15,12 @@ const ProjectCard = (project: Project) => {
             width={800}
             height={800}
           />
-        </a>
+        </Link>
       </figure>
       <div className="card-body">
-        <a href={project.link}>
+        <Link href={project.link}>
           <h2 className="card-title hover:underline">{project.title}</h2>
-        </a>
+        </Link>
         <p>{project.description}</p>
         <div className="card-actions mt-2">
           {project.skills.map(skill => (
@@ -30,13 +31,13 @@ const ProjectCard = (project: Project) => {
         </div>
         <div className="flex justify-end gap-4">
           {project.demo ? (
-            <a href={project.demo} target="_blank">
+            <Link href={project.demo} target="_blank">
               <FaYoutube className="w-8 h-8 mt-2 mr-2" />
-            </a>
+            </Link>
           ) : null}
-          <a href={project.github} target="_blank">
+          <Link href={project.github} target="_blank">
             <FaGithub className="w-8 h-8 mt-2 mr-2" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
