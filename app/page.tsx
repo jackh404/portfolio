@@ -1,66 +1,8 @@
 // pages/index.js
 import Image from "next/image";
+import experiencedList from "./data/experiencedList.json";
 export default function Home() {
-  const experiencedList = [
-    {
-      label: "React",
-      src: "/React-icon.png",
-      alt: "react logo",
-    },
-    {
-      label: "Python",
-      src: "/Python-logo-notext.png",
-      alt: "python logo",
-    },
-    {
-      label: "JavaScript",
-      src: "/JSLogo.png",
-      alt: "javascript logo",
-    },
-    {
-      label: "Java",
-      src: "/javaLogo.png",
-      alt: "java logo",
-    },
-    {
-      label: "Flask",
-      src: "/flask-logo.png",
-      alt: "flask logo",
-      addClass: "invert",
-    },
-    {
-      label: "Next.js",
-      src: "/next-js.svg",
-      alt: "next.js logo",
-      addClass: "invert",
-    },
-    {
-      label: "TypeScript",
-      src: "/ts-logo.png",
-      alt: "typescript logo",
-    },
-    {
-      label: "TailwindCSS",
-      src: "/Tailwind-CSS.svg",
-      alt: "tailwindcss logo",
-      addClass: "bg-gray-100 rounded-full",
-    },
-    {
-      label: "PostgreSQL",
-      src: "/Postgresql_elephant.png",
-      alt: "postgresql logo",
-    },
-    {
-      label: "HTML",
-      src: "/HTML5_logo_and_wordmark.png",
-      alt: "html logo",
-    },
-    {
-      label: "CSS",
-      src: "/CSS3_logo.png",
-      alt: "css logo",
-    },
-  ];
+
   return (
     <div>
       <div className="flex flex-col md:flex-row justify-between items-center">

@@ -1,0 +1,66 @@
+[
+    {
+        "label": "Appian",
+        "src": "/appian.png",
+        "alt": "appian logo",
+        "addClass": "rounded-3xl"
+    },
+    {
+      "label": "React",
+      "src": "/React-icon.png",
+      "alt": "react logo"
+    },
+    {
+      "label": "Python",
+      "src": "/Python-logo-notext.png",
+      "alt": "python logo"
+    },
+    {
+      "label": "JavaScript",
+      "src": "/JSLogo.png",
+      "alt": "javascript logo"
+    },
+    {
+      "label": "Java",
+      "src": "/javaLogo.png",
+      "alt": "java logo"
+    },
+    {
+      "label": "Flask",
+      "src": "/flask-logo.png",
+      "alt": "flask logo",
+      "addClass": "invert"
+    },
+    {
+      "label": "Next.js",
+      "src": "/next-js.svg",
+      "alt": "next.js logo",
+      "addClass": "invert"
+    },
+    {
+      "label": "TypeScript",
+      "src": "/ts-logo.png",
+      "alt": "typescript logo"
+    },
+    {
+      "label": "TailwindCSS",
+      "src": "/Tailwind-CSS.svg",
+      "alt": "tailwindcss logo",
+      "addClass": "bg-gray-100 rounded-full p-2"
+    },
+    {
+      "label": "PostgreSQL",
+      "src": "/Postgresql_elephant.png",
+      "alt": "postgresql logo"
+    },
+    {
+      "label": "HTML",
+      "src": "/HTML5_logo_and_wordmark.png",
+      "alt": "html logo"
+    },
+    {
+      "label": "CSS",
+      "src": "/CSS3_logo.png",
+      "alt": "css logo"
+    }
+  ]
