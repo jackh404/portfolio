@@ -38,7 +38,7 @@ export default function Home() {
       <h2 className="text-2xl md:text-3xl lg:text-4xl my-6 md:mt-10">
         ...With experience in
       </h2>
-      <div className="mt-10 flex gap-7 text-center text-xl flex-wrap">
+      <div className="mt-10 flex gap-7 text-center text-xl flex-wrap justify-center">
         {experiencedList.map(item => (
           <div key={item.label}>
             <Image
