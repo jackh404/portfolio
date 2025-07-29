@@ -46,7 +46,7 @@ export default function Home() {
               width={150}
               height={150}
               alt={item.alt}
-              className={`${item.addClass} max-h-12 w-auto mx-auto`}
+              className={`max-h-12 w-auto mx-auto ${item.addClass}`}
             />
             <p className="mt-2">{item.label}</p>
           </div>
