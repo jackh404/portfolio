@@ -35,9 +35,11 @@ const ProjectCard = (project: Project) => {
               <FaYoutube className="w-8 h-8 mt-2 mr-2" />
             </Link>
           ) : null}
-          <Link href={project.github} target="_blank">
-            <FaGithub className="w-8 h-8 mt-2 mr-2" />
-          </Link>
+          {project.github ? (
+            <Link href={project.github} target="_blank">
+              <FaGithub className="w-8 h-8 mt-2 mr-2" />
+            </Link>
+          ) : null}
         </div>
       </div>
     </div>

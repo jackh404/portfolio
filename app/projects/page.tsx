@@ -10,6 +10,14 @@ export const metadata = {
 export default function Projects() {
   const projects: Project[] = [
     {
+      title: "GSA EASi",
+      description: "The General Services Administration (GSA) uses the  Electronic Acquisition System Integrated (EASi) to manage the procurement process for a wide range of federal acquisitions. I participated in the ongoing development of the Appian cloud solution for EASi.",
+      image: "/GSA_Seal.png",
+      link: "https://appian.com/about/explore/customers/all-customers/general-services-administration",
+      skills: ["Appian", "REST API", "XML"],
+      github: ""
+    },
+    {
       title: "ECOiNSIGHT",
       description:
         "EcoInsight is an innovative web application aimed at helping individuals reduce their environmental impact. Our platform integrates assessments, recommendation systems, and project tracking, supported by a strong community focus.",

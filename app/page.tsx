@@ -28,11 +28,11 @@ export default function Home() {
         </h2>
         <p className="text-lg">
           I am a creative and innovative Full-Stack Developer with more than 10
-          years working in various technical fields. I am experienced in Java,
+          years working in various technical fields. I am experienced in Appian, Java,
           Python, Flask SQLAlchemy, JS, and React, as well as education and
           manufacturing. I am always curious, friendly, and ready to dive into
           team-driven projects. I am passionate about sustainable technologies
-          at the intersection of environmental action and computer science.
+          and computer science.
         </p>
       </div>
       <h2 className="text-2xl md:text-3xl lg:text-4xl my-6 md:mt-10">
