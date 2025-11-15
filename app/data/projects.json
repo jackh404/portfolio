@@ -1,5 +1,13 @@
 [
     {
+        "title":"USDA/NRCS National Easement Acquisiton Tool (NEAT)",
+        "description":"The National Easement Acquisition Tool (NEAT) is developed and maintained for the USDA Natural Resources Conservation Service (NRCS) to streamline the process of acquiring conservation easements from farmers and other landownners. NEAT uses the Tyler Federal frameork, incorporating the use of Java, SQL, and HTML/CSS/JavaScript.",
+        "image":"/usfws-usda-nrcs-logohighresjpg-large.jpeg",
+        "link":"https://www.nrcs.usda.gov/programs-initiatives/agricultural-conservation-easement-program",
+        "skills":["Java","SQL","HTML/CSS/JavaScript"],
+        "github":""
+    },
+    {
       "title": "GSA EASi",
       "description": "The General Services Administration (GSA) uses the  Electronic Acquisition System Integrated (EASi) to manage the procurement process for a wide range of federal acquisitions. I participated in the ongoing development of the Appian cloud solution for EASi.",
       "image": "/GSA_Seal.png",
