@@ -1,0 +1,39 @@
+[
+    {
+      "title": "GSA EASi",
+      "description": "The General Services Administration (GSA) uses the  Electronic Acquisition System Integrated (EASi) to manage the procurement process for a wide range of federal acquisitions. I participated in the ongoing development of the Appian cloud solution for EASi.",
+      "image": "/GSA_Seal.png",
+      "link": "https://appian.com/about/explore/customers/all-customers/general-services-administration",
+      "skills": ["Appian", "REST API", "XML"],
+      "github": ""
+    },
+    {
+      "title": "ECOiNSIGHT",
+      "description":
+        "EcoInsight is an innovative web application aimed at helping individuals reduce their environmental impact. Our platform integrates assessments, recommendation systems, and project tracking, supported by a strong community focus.",
+      "image": "/ecoinsight.png",
+      "link": "https://ecoinsight.vercel.app",
+      "github": "https://github.com/jackh404/ecoinsight",
+      "skills": ["React.JS", "Flask SQLAlchemy", "TypeScript"],
+      "demo": "https://youtu.be/2Qq7R_hVwkk"
+    },
+    {
+      "title": "The Galactic Atlas",
+      "description":
+        "The Galactic Atlas is a python CLI for interacting with stars, planets, species, and civilizations, both real and fictional.",
+      "image": "/Screenshot 2024-02-22 144317.png",
+      "github": "https://github.com/jackh404/galactic_atlas",
+      "link": "https://github.com/jackh404/galactic_atlas",
+      "skills": ["Python", "SQL", "Object Relational Mapping"],
+      "demo": "https://youtu.be/T73ofmkVX1s"
+    },
+    {
+      "title": "Portfolio",
+      "description":
+        "This portfolio website is a simple Next.JS app aimed at aquanting visitors with my personal story and my work in software development. It is coded in TypeScript with Tailwind CSS and DaisyUI for styling.",
+      "image": "/portfolio.png",
+      "link": "https://jackhenza.com",
+      "github": "https://github.com/jackh404/portfolio",
+      "skills": ["Next.JS", "TypeScript", "Tailwind CSS"]
+    }
+  ]

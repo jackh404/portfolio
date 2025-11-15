@@ -1,8 +1,9 @@
 // pages/index.js
 import Image from "next/image";
-import experiencedList from "./data/experiencedList.json";
+import experience_data from "./data/experiencedList.json";
+import { ExperiencedItem } from "./types";
 export default function Home() {
-
+  const experiencedList: ExperiencedItem[] = experience_data;
   return (
     <div>
       <div className="flex flex-col md:flex-row justify-between items-center">

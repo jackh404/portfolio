@@ -4,6 +4,12 @@ export type Project = {
   image: string;
   link: string;
   skills: string[];
-  github: string;
+  github?: string;
   demo?: string;
+};
+export type ExperiencedItem = {
+  label: string;
+  src: string;
+  alt: string;
+  addClass?: string;
 };
