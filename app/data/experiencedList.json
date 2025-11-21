@@ -28,14 +28,12 @@
     {
       "label": "Flask",
       "src": "/flask-logo.png",
-      "alt": "flask logo",
-      "addClass": "invert"
+      "alt": "flask logo"
     },
     {
       "label": "Next.js",
-      "src": "/next-js.svg",
-      "alt": "next.js logo",
-      "addClass": "invert"
+      "src": "/next-js.png",
+      "alt": "next.js logo"
     },
     {
       "label": "TypeScript",
